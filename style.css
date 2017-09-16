@@ -27,11 +27,11 @@ hr {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.header-buttons {
+.header-buttons, .footer-buttons {
   text-align: center;
 }
 
-.header-button {
+.header-button, .footer-button {
   margin: 0 1vw;
 }
 
@@ -119,12 +119,12 @@ footer {
   text-align: center;
 }
 
-.header-buttons a, .back-to-top {
+.footer-buttons a, .back-to-top {
   color: white;
   transition: all ease 0.5s;
 }
 
-.header-buttons a:hover, .back-to-top:hover {
+.footer-buttons a:hover, .back-to-top:hover {
   color: rgb(190, 190, 190);
   text-decoration: none;
 }
