@@ -78,11 +78,6 @@ hr {
   padding: 5% 10% 5% 0;
 }
 
-@media (max-width: 992px) {
-  .about-content {
-    padding: 5%;
-  }
-}
 
 .about-title, .contact-title {
   padding-top: 2rem;
@@ -94,8 +89,14 @@ hr {
 
 .about-content-body {
   font-size: 15pt;
+  text-align: justify
 }
 
+@media (max-width: 992px) {
+  .about-content {
+    padding: 5%;
+  }
+}
 /*.form-control {
   border-top: none;
   border-left: none;
