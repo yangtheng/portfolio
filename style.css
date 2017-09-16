@@ -35,16 +35,19 @@ hr {
   margin: 0 1vw;
 }
 
+.header-background-effect {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 13rem 2rem;
+}
+
 @media (max-width: 525px) {
   .header-buttons, .header-button {
     display: block;
     margin-top: 2vh
   }
-}
-
-.header-background-effect {
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 13rem 2rem;
+  .header-background-effect {
+    padding: 5rem 2rem;
+  }
 }
 
 .jumbotron-header {
