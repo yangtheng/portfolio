@@ -28,61 +28,45 @@
   <div class="container" id="portfolio">
     <h2 class="display-4 text-center font-weight-bold">Portfolio</h2>
     <hr class="portfolio-divider">
-    <div id="portfolio-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <h2 class="display-5 text-center font-weight-bold">General Assembly WDI Projects</h2>
-          <div class="row">
-            <div class="col-12 col-md-6 portfolio-box">
-              <a data-toggle="modal" data-target="#typingmadness">
-                <img class="img-fluid" src="https://imgur.com/l6Mt1Zj.jpeg" alt="">
-              </a>
-              <p class="project-title-box">Typing Madness</p>
+      <h2 class="display-5 text-center font-weight-bold">Past Projects</h2>
+      <div class="row">
+        <div class="col-12 col-md-12 portfolio-box">
+          <a data-toggle="modal" data-target="#marco">
+            <div class="image-container">
+              <img class="img-fluid" src="https://imgur.com/WP12sdz.jpeg" alt="">
             </div>
-            <div class="col-12 col-md-6 portfolio-box">
-              <a data-toggle="modal" data-target="#tripanzee">
-                <img class="img-fluid" src="https://imgur.com/60sOvpJ.jpeg" alt="">
-              </a>
-              <p class="project-title-box">Tripanzee</p>
-            </div>
-            <div class="col-12 col-md-6 portfolio-box">
-              <a data-toggle="modal" data-target="#strangerdeals">
-                <img class="img-fluid" src="https://imgur.com/fbD2uB3.jpeg" alt="">
-              </a>
-              <p class="project-title-box">Stranger Deals</p>
-            </div>
-            <div class="col-12 col-md-6 portfolio-box">
-              <a data-toggle="modal" data-target="#bucketlist">
-                <img class="img-fluid" src="https://imgur.com/6ZttZOW.jpeg" alt="">
-              </a>
-              <p class="project-title-box">Bucket List</p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <h2 class="display-5 text-center font-weight-bold">Other Projects</h2>
-          <div class="row">
-            <div class="col-12 col-md-6 portfolio-box">
-              <a data-toggle="modal" data-target="#marco">
-                <div class="image-container">
-                  <img class="img-fluid" src="https://imgur.com/WP12sdz.jpeg" alt="">
-                </div>
-              </a>
-              <p class="project-title-box">Marco (Work in Progress)</p>
-            </div>
-          </div>
+          </a>
+          <p class="project-title-box">Marco</p>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#portfolio-carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#portfolio-carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+      <h2 class="display-5 text-center font-weight-bold">General Assembly WDI Projects</h2>
+      <div class="row">
+        <div class="col-12 col-md-6 portfolio-box">
+          <a data-toggle="modal" data-target="#typingmadness">
+            <img class="img-fluid" src="https://imgur.com/l6Mt1Zj.jpeg" alt="">
+          </a>
+          <p class="project-title-box">Typing Madness</p>
+        </div>
+        <div class="col-12 col-md-6 portfolio-box">
+          <a data-toggle="modal" data-target="#tripanzee">
+            <img class="img-fluid" src="https://imgur.com/60sOvpJ.jpeg" alt="">
+          </a>
+          <p class="project-title-box">Tripanzee</p>
+        </div>
+        <div class="col-12 col-md-6 portfolio-box">
+          <a data-toggle="modal" data-target="#strangerdeals">
+            <img class="img-fluid" src="https://imgur.com/fbD2uB3.jpeg" alt="">
+          </a>
+          <p class="project-title-box">Stranger Deals</p>
+        </div>
+        <div class="col-12 col-md-6 portfolio-box">
+          <a data-toggle="modal" data-target="#bucketlist">
+            <img class="img-fluid" src="https://imgur.com/6ZttZOW.jpeg" alt="">
+          </a>
+          <p class="project-title-box">Bucket List</p>
+        </div>
+      </div>
     </div>
-  </div>
   <div class="container-fluid" id="about">
     <h2 class="about-title display-4 text-center font-weight-bold">About Me</h2>
     <hr class="about-divider">
@@ -260,6 +244,35 @@
                   <img class="img-fluid img-centered" src="https://imgur.com/6ZttZOW.jpeg" alt="">
                 </a>
                 <p>An app that allows user to create itineraries, and publish them as blogposts for others to discover. <br><br><i>Technology used: React.js, Ruby on Rails and PostgreSQL.</i></p>
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="marco" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2>Marco (A Domato Devs Project)</h2>
+                <hr>
+                <a href="https://domatodevs.herokuapp.com" target="_blank">
+                  <img class="img-fluid img-centered" src="https://imgur.com/VayIzbB.jpeg" alt="">
+                </a>
+                <p>A more complete version of 'Bucket List' from my General Assembly WDI Project. Additional features include being able to add events from blogposts into a personalised bucket list, as well as to view these events on Google Maps. <br><br><i>Technology used: React.js, Redux, GraphQL, Apollo, Express.js, and PostgreSQL.</i></p>
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">
                     <i class="fa fa-times"></i>
                     Close</button>
